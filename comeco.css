@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 80px;
+    background-color: rgb(47, 196, 47);
+    border-bottom: 4px solid black;
+}
+
+.voltar a{
+    display: flex;
+    margin-left: 30px;
+    padding-top: 30px;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.voltar a:hover{
+    color: black;
+    font-size: 23px;
+}
+
+
+.imagem{
+    height: 300px;
+    background-color: antiquewhite;
+    border-bottom: 4px solid black;
+}
+
+.imagem img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 260px;
+    margin-left: 600px;
+    margin-top: 4px;
+}
+
+.comeco{
+    position: fixed;
+    height: 300px;
+    text-align: center;
+    background-color: antiquewhite;
+    border-bottom: 4px solid black;
+}
+
+.comeco p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 40px;
+}

@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(50, 160, 50);
+    border-bottom: 6px solid rgb(24, 68, 24);
+}
+
+header div img{
+    margin-right: 300px;
+    width: 100px;
+    border-radius: 120px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+header h1{
+    margin-right: 300px;
+    font-family: lato, sans, poppins, roboto, Ubuntu;
+    color: rgb(42, 40, 40);
+}
+header h3 a{
+    font-size: 25px;
+    color: rgb(42, 40, 40);
+    text-decoration: none;
+}
+
+.introducao{
+    background-image: url(img/fundo2.webp);
+    height: 300px;
+}
+
+.introducao p{
+    display: flex;
+    justify-content: center;
+    padding-top: 150px;
+    font-size: 30px;
+}
+
+div h1{
+    font-family: lato, sans, poppins, roboto, Ubuntu;
+    display: flex;
+    justify-content: center;
+    margin-top: 6px;
+    color: rgb(15, 100, 15);
+
+}
+
+.menu1 .bebidas1{
+    display: flex;
+    flex-direction: column;
+    padding-left: 200px;
+    margin-top: 15px;
+    background-color: rgb(57, 196, 57);
+}
+
+.bebidas1 ul li{
+    margin-bottom: 10px;    
+}
+
+.menu2 .bebidas2{
+    display: flex;
+    flex-direction: column;
+    padding-left: 200px;
+    margin-top: 15px;
+    background-color: rgb(57, 196, 57);
+}
+.bebidas2 ul li{
+    margin-bottom: 10px;    
+}
+
+.menu3 .bebidas3{
+    display: flex;
+    flex-direction: column;
+    padding-left: 200px;
+    margin-top: 15px;
+    background-color: rgb(57, 196, 57);
+}
+.bebidas3 ul li{
+    margin-bottom: 10px;    
+}
+
+footer{
+    height: 300px;
+    border-top: 5px solid;
+    background-color: rgb(66, 165, 132);
+}
+
+footer h1{
+    position: relative;
+    justify-content: center;
+    font-family: lato, sans, poppins, roboto, Ubuntu;
+    margin-left: 150px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+footer ul{
+    margin-bottom: 10px;
+    margin-left: 150px;
+    font-size: 20px;
+}
+
+.menu1 .bebidas1 .img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1px;
+    margin-left: 915px;
+    width: 400px;
+    border-radius: 4px;
+}
+
+.menu2 .bebidas2 .salgado{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1px;
+    margin-left: 915px;
+    width: 400px;
+    border-radius: 4px;
+}
+
+.menu3 .bebidas3 .doce{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1px;
+    margin-left: 996px;
+    width: 300px;
+    border-radius: 4px;
+}
